@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://danieltse.com/beautemps" version="1.0.0" viewmodes="maximized">
+    <access origin="http://openweathermap.org" subdomains="true"></access>
+    <tizen:application id="PwJ2SjoOZd.BeauTemps" package="PwJ2SjoOZd" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.720.1280"/>
+    <icon src="icon.png"/>
+    <name>Lovely Weather</name>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

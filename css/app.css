@@ -1,0 +1,83 @@
+body {
+      background-image: url('img/100-90-2.png');
+      background-color: #f1f1f1;  /*Light Grey*/
+      /*color:#3e3e3e;            /*Dark Grey*/
+      color: #696450; /*light tan*/
+      margin:0px;
+      padding: 0px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+      color:#3e3e3e;
+    }
+
+    .now {
+      color:#3e3e3e;
+    }
+
+    .temperature {
+      font-size: 7em;
+      text-align: right;
+      display:block;
+      
+    }
+
+    .vertical {
+      float: right;
+      margin-right:0.1em;
+      /*border:1px solid #222;*/
+    }
+
+    .horizontal {
+      float:right;
+      margin-right:0.1em;
+      /*border:1px solid #222;*/
+    }
+
+    .vertbox {
+      height:10em;;
+      display:block;
+    }
+
+    .horizontalbox {
+      border:1px dashed #ccc;
+      width:420px;
+    }
+
+    .settings {
+      clear:both;
+      padding-right: 1em;
+      display: block;
+    }
+
+    .settings a {
+      float:right;
+    }
+
+    .vweathericon {
+      float:left;
+      margin-left:0.2em;
+      width:100px;
+      position: relative;
+    }
+
+    .hweathericon {
+      float:left;
+      margin-left:2em;
+      width:100px;
+      position: absolute;
+
+    }
+    
+    #settings_overlay {
+	    position: fixed;
+	    z-index:100;
+	    top: 0px;
+	    left: 0px;
+	    height:75%;
+	    width:100%;
+	    border:1px solid black;
+	    display: none;
+	    background:white; opacity:0.999;
+	}
